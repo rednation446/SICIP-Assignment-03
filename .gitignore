@@ -1,0 +1,26 @@
+# environments
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# model weights and caches
+saved_models/
+*.pt
+*.bin
+*.safetensors
+.cache/
+hf_cache/
+
+# local data dumps
+*.parquet
+*.arrow
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/

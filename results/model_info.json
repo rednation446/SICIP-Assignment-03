@@ -1,0 +1,38 @@
+{
+  "thresholds": {
+    "Frozen baseline": 0.6347244381904602,
+    "Fine-tuned (default)": 0.9136366844177246,
+    "Fine-tuned (tuned)": 0.9071115851402283
+  },
+  "info": {
+    "Frozen baseline": {
+      "encoder_params": 66362880,
+      "trainable_encoder_params": 0,
+      "classifier_params": 769,
+      "embedding_dim": 768,
+      "train_time_sec": 127.60129380226135
+    },
+    "Fine-tuned (default)": {
+      "learning_rate": 2e-05,
+      "batch_size": 16,
+      "epochs": 2,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "best_epoch": 2,
+      "best_val_pr_auc": 0.7513544189846002,
+      "train_time_sec": 503.17633748054504,
+      "trainable_params": 66955010
+    },
+    "Fine-tuned (tuned)": {
+      "learning_rate": 2.2640782282355434e-05,
+      "batch_size": 16,
+      "epochs": 2,
+      "weight_decay": 0.06075448519014384,
+      "warmup_ratio": 0.03410482473745831,
+      "best_epoch": 2,
+      "best_val_pr_auc": 0.7519423788100474,
+      "train_time_sec": 508.754554271698,
+      "trainable_params": 66955010
+    }
+  }
+}

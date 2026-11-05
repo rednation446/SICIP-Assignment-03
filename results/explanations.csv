@@ -1,0 +1,20 @@
+id,group,text,actual,predicted,prob_toxic,toward_toxic,toward_not_toxic,base_value
+0,true_positive,Idiot. They are students-they don't have day jobs.,toxic,toxic,0.9972570538520813,"Idiot (+0.938), are (+0.012), t (+0.008), . (+0.007)","students (-0.028), day (-0.020), They (-0.013), jobs (-0.011)",0.09065660089254379
+1,true_positive,Says the idiot on perpetual welfare. You are a disgusting human.,toxic,toxic,0.9974448680877686,"idiot (+0.470), disgusting (+0.369), a (+0.036), are (+0.025)","perpetual (-0.010), welfare (-0.006), Says (-0.004), . (-0.003)",0.09629669785499573
+2,true_negative,"Not to late,  legislator's can still require the audit before approving future funding.  Hopefully they come to their senses and force the city and HART to do the audit.  Find out why costs keep going up.",not toxic,not toxic,0.0009404258453287184,,". (-0.009), audit (-0.006), funding (-0.006), audit (-0.005)",0.10038541257381439
+3,true_negative,"I disagree.  There are NO political protests that belong on the field.  Sports is supposed to be about competition, and entertainment depending on where you sit, not about politics.  As long as it continues I won't be watching.",not toxic,not toxic,0.0009189822012558579,,". (-0.006), field (-0.005), NO (-0.005), . (-0.005)",0.1043710932135582
+4,false_positive,"Richard,
+You might want to read this part again: 
+""Crooked Narcissist Bumbling Lunatic Buffoon has clearly overstepped his authority here.""
+Do you feel this is ""winning?""
+
+There will be a legal challenge.",not toxic,toxic,0.9918924570083618,"Lunatic (+0.225), oon (+0.174), Buff (+0.169), Bum (+0.110)","Richard (-0.003), "" (-0.003), winning (-0.003), ? (-0.003)",0.10651379823684692
+5,false_positive,All 3 vehicles completely totaled. Everybody is in such a damn hurry.,not toxic,toxic,0.995220959186554,"damn (+0.939), such (+0.007), in (+0.006), a (+0.006)","hurry (-0.022), totaled (-0.014), . (-0.009), Everybody (-0.007)",0.09065660089254379
+6,false_negative,In serious need of an injection to put it to sleep forever.,toxic,not toxic,0.01057314220815897,"an (+0.031), injection (+0.026), to (+0.014), of (+0.001)","sleep (-0.049), forever (-0.045), In (-0.020), it (-0.016)",0.09629669785499573
+7,false_negative,"WTF is up with that name?
+
+Did his parent (s) mis-spell Subaru?",toxic,not toxic,0.0016232110792770982,"name (+0.004), with (+0.003), ( (+0.003), - (+0.002)","? (-0.032), ? (-0.011), parent (-0.007), Did (-0.006)",0.07583880424499512
+8,real_world,You are an absolute idiot if you believe this nonsense.,toxic,toxic,0.9974180459976196,"idiot (+0.416), nonsense (+0.341), this (+0.049), an (+0.021)",if (-0.009),0.10883592814207077
+9,real_world,"Shut up, nobody cares about your stupid opinion.",toxic,toxic,0.9973698854446411,"stupid (+0.481), Shut (+0.193), up (+0.182), your (+0.015)","opinion (-0.023), about (-0.003), cares (-0.002)",0.11740388721227646
+10,real_world,"This movie was so bad it was hilarious, I laughed the whole time.",not toxic,not toxic,0.004309287294745445,"This (+0.014), . (+0.010), , (+0.004), was (+0.001)","laughed (-0.023), time (-0.019), I (-0.015), hilarious (-0.014)",0.0863940492272377
+11,real_world,"The referee was blind tonight, worst officiating I have seen all season.",not toxic,not toxic,0.012505771592259407,"worst (+0.098), was (+0.010), . (+0.009)","season (-0.026), off (-0.024), ting (-0.021), referee (-0.021)",0.08360403776168823

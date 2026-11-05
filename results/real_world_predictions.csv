@@ -1,0 +1,13 @@
+text,expected_label,source,note,prob_toxic,threshold,predicted_label,predicted_class,matches_expected
+"Thanks for the detailed explanation, this cleared up a lot of my confusion about the new tax rules.",0,news site comment,polite and appreciative,0.0009660085,0.9071115851402283,0,not toxic,True
+I respectfully disagree with the mayor. The budget cuts will hurt public schools the most.,0,news site comment,political disagreement without insults,0.0012120502,0.9071115851402283,0,not toxic,True
+"The traffic on the Dhaka-Chittagong highway was terrible again today, took me six hours.",0,social media post,complaint about traffic; negative but not toxic,0.0018169639,0.9071115851402283,0,not toxic,True
+This article is badly researched and the author clearly did not check the numbers.,0,news site comment,harsh criticism of work rather than a person,0.0030454497,0.9071115851402283,0,not toxic,True
+You are an absolute idiot if you believe this nonsense.,1,social media reply,direct insult aimed at another user,0.99741805,0.9071115851402283,1,toxic,True
+"Shut up, nobody cares about your stupid opinion.",1,forum reply,dismissive insult,0.9973699,0.9071115851402283,1,toxic,True
+People like you are the reason this country is going to hell. Pathetic.,1,news site comment,hostile and demeaning toward a group,0.9970431,0.9071115851402283,1,toxic,True
+What a moron. Go back to school before you post again.,1,social media reply,name-calling,0.99710864,0.9071115851402283,1,toxic,True
+"I killed it at my presentation today, the whole team loved it!",0,social media post,violent word used in a positive idiom,0.40624955,0.9071115851402283,0,not toxic,True
+"This movie was so bad it was hilarious, I laughed the whole time.",0,review site,negative words without toxicity,0.0043092873,0.9071115851402283,0,not toxic,True
+"Get lost, you worthless troll.",1,forum reply,insult and name-calling,0.99583,0.9071115851402283,1,toxic,True
+"The referee was blind tonight, worst officiating I have seen all season.",0,sports forum,strong criticism; borderline but generally not toxic,0.012505772,0.9071115851402283,0,not toxic,True

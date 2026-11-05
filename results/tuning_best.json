@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "learning_rate": 2.2640782282355434e-05,
+    "batch_size": 16,
+    "epochs": 2,
+    "weight_decay": 0.06075448519014384,
+    "warmup_ratio": 0.03410482473745831
+  },
+  "best_val_pr_auc": 0.6823325163358501,
+  "importances": {
+    "weight_decay": 0.5480922991222366,
+    "warmup_ratio": 0.315566576264465,
+    "learning_rate": 0.13235611755486223,
+    "epochs": 0.002964179823352555,
+    "batch_size": 0.0010208272350836112
+  }
+}

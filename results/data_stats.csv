@@ -1,0 +1,4 @@
+split,rows,toxic,non_toxic,toxic_%,avg_words
+train,40000,12000,28000,30.0,50.5
+validation,5000,407,4593,8.14,52.0
+test,10000,812,9188,8.12,51.4
